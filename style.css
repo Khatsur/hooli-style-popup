@@ -1,0 +1,17 @@
+nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    border: 1px solid black;
+    width: auto;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 20px;
+}
