@@ -8,23 +8,53 @@
     <title>Hooli style Popup</title>
   </head>
   <body>
+    
     <nav class="navbar">
       <ul class="navlist">
         <li><a href="#">Mail</a></li>
         <li><a href="#">Images</a></li>
-        <li>
-          <a href="#popup"><img src="./images/popup-button.png" /></a>
+        <li id="popupicon">
+
+          <input type="checkbox" id="show" />
+   <label for="show"><a><img src="./images/popup-button.png" /></a></label>
+   
+    <div class="popups" id="popup">
+      <img class="popimg" src="./images/blogs.png" />
+      <img class="popimg" src="./images/calendar.png" />
+      <img class="popimg" src="./images/chat.png" />
+    </div>
+    
+        
+          <!-- <input type="checkbox" id="show" />
+          <div class="popupicon">
+            <label for="show"><img src="./images/popup-button.png" /></label>
+          </div> -->
+
+          <!-- <div class="popups" id="popup">
+              <img class="popimg" src="./images/blogs.png" />
+              <img class="popimg" src="./images/calendar.png" />
+              <img class="popimg" src="./images/chat.png" />
+            </div> -->
+
+          <!-- <a class="popup_button"
+            href="#popup"><img src="./images/popup-button.png"/></a> -->
         </li>
         <li><img src="./images/bell.png" width="20px" /></li>
+        
       </ul>
     </nav>
 
-    
-      <div class="popups" id="popup">
-        <img class="popimg" src="./images/blogs.png" />
-        <img class="popimg" src="./images/calendar.png" />
-        <img class="popimg" src="./images/chat.png" />
-      </div>
-    
+    <!-- <input type="checkbox" id="show" />
+    <label for="show"><img src="./images/popup-button.png" /></label> -->
+
+    <div class="popups" id="popup">
+      <img class="popimg" src="./images/blogs.png" />
+      <img class="popimg" src="./images/calendar.png" />
+      <img class="popimg" src="./images/chat.png" />
+    </div>
+
+    <!-- <input type="checkbox" id="show" />
+    <label for="show">Help?</label>
+    <span id="content">Do you need some help?</span> -->
   </body>
 </html>
