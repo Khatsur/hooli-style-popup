@@ -28,21 +28,19 @@ li {
 }
 
 li:hover {
-  
   background-color:#D0DDF2;
   border-radius:5px;
   border:1px solid #102447;
-  
 }
+
 
 #popup {
   border-radius: 5px;
   position: absolute;
   right: 49px;
   width: 333px;
-  
-  
 }
+
 
 #iconsscrol {
   display: flex;
@@ -59,7 +57,10 @@ li:hover {
   overflow: hidden;
 }
 
-
+#iconsscrol:target {
+  overflow: scroll;
+  height: 350px;
+}
 
 
 img.popimg {
@@ -79,13 +80,22 @@ img.popimg {
 .innericons {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   width: 85px;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  
+  height: 100px;
+  padding: 10px;
 }
+
+a:focus {
+  border: 1px solid blue;
+}
+
+.innericons:hover {
+  border: 1px solid gray;
+}
+
+
 
 /* .popups {
   display: flex;
@@ -102,7 +112,5 @@ img.popimg {
   width: 100%;
 }
 
-/* #iconsscrol:target {
-  overflow: scroll;
-} */
+
 
