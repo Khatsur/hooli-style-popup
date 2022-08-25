@@ -15,13 +15,11 @@
       <li><a href="/">Mail</a></li>
       <li><a href="/">Images</a></li>
       <li id="popupicon">
+        <input type="checkbox" class="check_input" id="show" />
+        <label for="show" class="check"><img src="./images/popup-button.png" id="popupimage" alt="popupicon" /></label>
 
-
-        <input type="checkbox" id="show" />
-        <label for="show"><img src="./images/popup-button.png" /></label>
         <div class="popups" id="popup">
           <div class="iconsarea" id="iconsscrol">
-
             <a href="/">
               <div class="innericons">
                 <img class="popimg" src="./images/blogs.png" alt="blog" />
@@ -105,13 +103,13 @@
                 <p class="icondescr">News</p>
               </div>
             </a>
-
           </div>
-
-          <a id="morebutton" href="#iconsscrol">More</a>
+          <div class="more">
+            <a id="morebutton" href="#iconsscrol">More</a>
+          </div>
         </div>
       </li>
-      <li><a href="/"><img src="./images/bell.png" width="20px" /></a></li>
+      <li><a href="/"><img src="./images/bell.png" width="20" id="bellimage" alt="bellicon" /></a></li>
     </ul>
   </nav>
 </body>
